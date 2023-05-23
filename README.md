@@ -1,7 +1,6 @@
 # Collatz_Conjecture
 Implementation in C and Rust to generate a Collatz trace and check its veracity using polynomial constraints.
 
-Source : https://medium.com/starkware/arithmetization-i-15c046390862
 <div align="center">
 </div>
 
@@ -9,7 +8,11 @@ Source : https://medium.com/starkware/arithmetization-i-15c046390862
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-A program to generate and analyze the Collatz sequence for a given positive integer. 
+You will find two programs one in C another one in Rust. 
+Their structure differs very little and they do the same thing, the goal being to make this research accessible to all.
+We try here to have a first approach of the notion of polynomial constraints.
+This program will allow you to generate a sequence of Collatz and come up with polynomial constraints of the respect of the conjuncture.
+I was inspired by this article (https://medium.com/starkware/arithmetization-i-15c046390862) that I recommend in order to have a more global vision of the subject.
 
 ## Table of Contents 📚
 
@@ -31,7 +34,7 @@ This program allows you to generate the Collatz sequence for a given positive in
 - Generates the Collatz sequence for a given positive integer.
 - Performs the following checks on the generated sequence:
   - **Criterion 1** (🔍): Verifies that the difference between the first binary value and its decimal equivalent is zero.
-  - **Criterion 2** (🔍): Checks if the difference between the last binary value and its decimal equivalent minus one is zero.
+  - **Criterion 2** (🔍): Checks if the difference between the last binary value and one is zero.
   - **Criterion 3** (🔍): Validates that all values in the sequence are valid binary numbers (containing only '0' and '1').
   - **Criterion 4** (🔍): Verifies the difference between binary values converted to decimal based on whether they are even or odd.
 - Provides informative error messages for invalid input or conversion failures.
@@ -57,8 +60,11 @@ This program allows you to generate the Collatz sequence for a given positive in
 3. Enter a positive integer when prompted.
 4. The program will display the generated Collatz sequence and perform the checks on the sequence.
 
+Warning : do not use too large numbers as they will not be supported.
+
 ## Contributing 🤝
 
+Source : https://medium.com/starkware/arithmetization-i-15c046390862
 Contributions to this project are welcome! If you find a bug or want to suggest an enhancement, please open an issue or submit a pull request.
 
 ## License 📃
