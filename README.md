@@ -1,14 +1,14 @@
 # Collatz_Conjecture
 Implementation in C and Rust to generate a Collatz trace and check its veracity using polynomial constraints.
+Source : https://medium.com/starkware/arithmetization-i-15c046390862
 <div align="center">
-  <img src="" alt="Collatz Sequence Checker Logo" width="200">
 </div>
 
 # Collatz Conjecture 🧮
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-A program to generate and analyze the Collatz sequence for a given positive integer. ✨
+A program to generate and analyze the Collatz sequence for a given positive integer. 
 
 ## Table of Contents 📚
 
