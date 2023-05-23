@@ -89,8 +89,9 @@ For C 🦍:
 
 ## Contributing 🤝
 
-Source : https://medium.com/starkware/arithmetization-i-15c046390862
 Contributions to this project are welcome! If you find a bug or want to suggest an enhancement, please open an issue or submit a pull request.
+
+Source : https://medium.com/starkware/arithmetization-i-15c046390862
 
 ## License 📃
 
