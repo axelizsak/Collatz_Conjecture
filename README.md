@@ -32,7 +32,9 @@ The set of criteria is as follows 📐:
 Let’s say A Collatz trace starting with x ∈ ℕ* and ending with 1. Then the length of the trace is defined as the number of iterations before reaching 1, noted n, on the other is the number of numbers of the trace. Let q be the largest number of the trace and let m be the number of bits needed for its binary writing. We can then represent this matrix in the form of bits such that M is of size (m x n).  
 We then have the following polynomial constraints for (n, m):
 
-1. 
+![Criteria](collatz1.png)
+
+To simplify the task I took the liberty of modifying the method slightly in my code but we always check the same thing.
 
 Polynomial constraints allow us to obtain information on certain sequences, for example by searching for recurring patterns. More widely they are used in ZKP to express the relations between the secret data of the prover and the public data known by the verifier. It is therefore essential to master this aspect of optimization on (apparently) simple problems such as Collatz. 🧠
 The heart of my approach is here, it is up to you to find other criteria and play with them. 
