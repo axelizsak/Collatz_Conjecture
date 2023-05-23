@@ -1,6 +1,6 @@
 # Collatz_Conjecture
 An open approach to mathematical optimization, implementation in C and Rust to generate a Collatz trace and check its veracity using polynomial constraints.
-![Collatz](https://www.google.com/search?tbm=isch&q=colloatz&tbs=imgo:1#imgrc=oP7Sc31DopGsXM&imgdii=hZ3Zss8RFCiGFM)
+
 <div align="center">
 </div>
 
