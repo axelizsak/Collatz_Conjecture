@@ -29,7 +29,7 @@ This program allows you to generate the Collatz sequence for a given positive in
 
 The set of criteria is as follows 📐: 
 
-Let’s say A Collatz trace starting with x ∈ ℕ* and ending with 1. Then the length of the trace is defined as the number of iterations before reaching 1, noted n, on the other is the number of numbers of the trace. Let q be the largest number of the trace and let m be the number of bits needed for its binary writing. We can then represent this matrix in the form of bits such that M is of size (m x n).  
+Let’s say A Collatz trace starting with x ∈ ℕ* and ending with 1. Then the length of the trace is defined as the number of iterations before reaching 1, noted n, on the other is the number of numbers of the trace. Let q be the largest number of the trace and let m be the number of bits needed for its binary writing. We can then represent this matrix in the form of bits such that A is of size (m x n).  
 We then have the following polynomial constraints for (n, m):
 
 ![Criteria](collatz1.png)
