@@ -6,7 +6,6 @@ An open approach to mathematical optimization, implementation in C and Rust to g
 
 # Collatz Conjecture 🧮
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 You will find two programs one in C another one in Rust. 
 Their structure differs very little and they do the same thing, the goal being to make this research accessible to all.
@@ -95,4 +94,4 @@ Contributions to this project are welcome! If you find a bug or want to suggest 
 
 ## License 📃
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under my self😎 free to do what you want with it.
