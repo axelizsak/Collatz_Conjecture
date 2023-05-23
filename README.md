@@ -50,6 +50,8 @@ This program allows you to generate the Collatz sequence for a given positive in
 
 ## Usage 🚀
 
+For Rust :
+
 1. Navigate to the project directory.
 2. Build and run the program using the Cargo command:
 
@@ -60,6 +62,19 @@ This program allows you to generate the Collatz sequence for a given positive in
 3. Enter a positive integer when prompted.
 4. The program will display the generated Collatz sequence and perform the checks on the sequence.
 
+For C :
+1. Navigate to the project directory.
+2. Use the command:
+  
+  ```shell
+   make
+  ```
+3. To get a trace use:
+  
+  ```shell
+   
+  ```
+  
 Warning : do not use too large numbers as they will not be supported.
 
 ## Contributing 🤝
