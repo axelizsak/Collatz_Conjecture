@@ -77,13 +77,13 @@ For C 🦍:
 3. To get a trace use:
   
   ```shell
-  ./collatz_proof <any number > 1>
+  ./collatz_proof 'any number > 0'
   ```
 4. Copy the output of the terminal.
 5. Type the command and enter the trace obtained:
   
   ```shell
-   ./collatz_verif <ctrl+shitf+v>
+   ./collatz_verif 'ctrl+shitf+v'
   ```
 
 ⚠️ Warning : do not use too large numbers as they will not be supported.⚠️
