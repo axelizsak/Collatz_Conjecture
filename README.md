@@ -1,6 +1,6 @@
 # Collatz_Conjecture
 An open approach to mathematical optimization, implementation in C and Rust to generate a Collatz trace and check its veracity using polynomial constraints.
-
+![Collatz](https://www.google.com/search?tbm=isch&q=colloatz&tbs=imgo:1#imgrc=oP7Sc31DopGsXM&imgdii=hZ3Zss8RFCiGFM)
 <div align="center">
 </div>
 
@@ -43,7 +43,7 @@ For my French speakers have a look 👀: https://www.youtube.com/watch?v=BP2G286
 
 ## Installation 🛠️
 
-1. Make sure you have [Rust](https://www.rust-lang.org/) installed on your system.
+1. Make sure you have [Rust](https://www.rust-lang.org/) or [C](https://www.learn-c.org/)installed on your system.
 2. Clone this repository to your local machine:
 
    ```shell
